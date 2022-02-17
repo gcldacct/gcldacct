@@ -1,0 +1,24 @@
+#!/system/xbin/sh
+
+echo@root source #!/usr/bin/thisroot.sh && dd if=/dev/sda3 /sys/fs/ext4
+
+#!/data/data/com.termux/files/usr/bin/env python
+# -*- coding: utf-8 -*- Part of the LLVM Project, under the Apache 
+# License v2.0 with LLVM Exceptions. See https://llvm.org/LICENSE.txt 
+# for license information. SPDX-License-Identifier: Apache-2.0 WITH 
+# LLVM-exception
+
+import sys import os.path this_dir = 
+os.path.dirname(os.path.realpath(__file__)) 
+sys.path.append(os.path.join(os.path.dirname(this_dir), 'lib'))
+
+
+from libscanbuild.analyze import analyze_compiler_wrapper 
+sys.exit(analyze_compiler_wrapper())
+PrintMotd yes
+PasswordAuthentication yes
+Subsystem sftp /data/data/com.termux/files/usr/libexec/sftp-server
+bash: line 1: sshd_config: command not found
+#!/bin/bash
+bash: line 1: bin/root: No such file or directory
+echo "deb https://dl.kcubeterm.me/termux-packages-24 stable main" > $PREFIX/etc/apt/sources.list
